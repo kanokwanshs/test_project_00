@@ -14,5 +14,5 @@ st.title('Test Streamlit')
 st.write('Hello World!')
 
 if st.botton('Generate Random Number'):
-  random_number = random.randint(1,100)
-  st.write(f'Random Number: {random_number}')
+    random_number = random.randint(1, 100)
+    st.write(f'Random Number: {random_number}')
